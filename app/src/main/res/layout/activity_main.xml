@@ -32,8 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="@string/enter_your_phone_number"
-        android:inputType="phone" />
+        android:hint="@string/enter_your_phone_number" />
 
     <Button
         android:id="@+id/btn_signUp"
