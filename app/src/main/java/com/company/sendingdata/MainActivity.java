@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     EditText et_name, et_email, et_phone;
-    Button btn_signUp, btn_BMI, btn_testFragment;
+    Button btn_signUp, btn_BMI, btn_testFragment, btn_twoFragments;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn_signUp = findViewById(R.id.btn_signUp);
         btn_BMI = findViewById(R.id.btn_BMI);
         btn_testFragment = findViewById(R.id.btn_goToFragment);
+        btn_twoFragments = findViewById(R.id.btn_twoFragment);
 
         btn_signUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +52,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, TestFragmentActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn_twoFragments.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TwoFragmentsActivity.class);
                 startActivity(intent);
             }
         });

@@ -12,7 +12,6 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:autofillHints=""
         android:ems="10"
         android:hint="@string/enter_your_name"
         android:inputType="textPersonName" />
@@ -36,21 +35,30 @@
 
     <Button
         android:id="@+id/btn_signUp"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/sign_up" />
+
     <Button
         android:id="@+id/btn_BMI"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="@string/calculate_your_bmi" />
+
     <Button
         android:id="@+id/btn_goToFragment"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="@string/test_fragment" />
+
+    <Button
+        android:id="@+id/btn_twoFragment"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="test two fragments" />
 
 </LinearLayout>
