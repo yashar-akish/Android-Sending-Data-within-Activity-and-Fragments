@@ -9,4 +9,7 @@
     <string name="enter_your_height_cm">Enter Your Height (cm)</string>
     <string name="calculate">calculate</string>
     <string name="if_bmi_is_bigger_than_25_it_is_considered_overweight">if BMI is bigger than 25, it is considered overWeight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_fragment">new fragment</string>
 </resources>
