@@ -8,7 +8,8 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:textAlignment="center"
-    tools:context=".TestFragment">
+    tools:context=".TestFragment"
+    android:layout_marginTop="20dp">
 
 
     <TextView
@@ -16,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="test fragment"
+        android:text="@string/test_fragment"
         android:textColor="@color/teal_700"
         android:textSize="30sp" />
 
@@ -39,9 +40,9 @@
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/btn_send"
+        android:id="@+id/btn_f_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="send data" />
+        android:text="@string/send_data" />
 </LinearLayout>

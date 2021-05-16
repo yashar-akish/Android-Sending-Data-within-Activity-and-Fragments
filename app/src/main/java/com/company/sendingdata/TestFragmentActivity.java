@@ -1,11 +1,11 @@
 package com.company.sendingdata;
 
+import android.os.Bundle;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.os.Bundle;
-import android.widget.TextView;
 
 public class TestFragmentActivity extends AppCompatActivity {
 
@@ -22,5 +22,12 @@ public class TestFragmentActivity extends AppCompatActivity {
         fragmentTransaction.add(R.id.linear, testFragment);
         fragmentTransaction.commit();
 
+    }
+
+    public void takeData(String userName, String userEmail){
+        tv_f_name = findViewById(R.id.tv_f_name);
+        tv_f_email = findViewById(R.id.tv_f_email);
+        tv_f_name.setText(userName);
+        tv_f_email.setText(userEmail);
     }
 }
