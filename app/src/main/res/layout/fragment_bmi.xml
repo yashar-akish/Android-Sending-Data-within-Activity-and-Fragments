@@ -25,6 +25,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
         android:shadowColor="@color/black"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
 </LinearLayout>
