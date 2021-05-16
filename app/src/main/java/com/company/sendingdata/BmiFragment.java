@@ -9,10 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class bmiFragment extends Fragment {
+public class BmiFragment extends Fragment {
 
 
-    public bmiFragment() {
+    public BmiFragment() {
     }
 
 

@@ -6,7 +6,7 @@
     android:background="@android:color/darker_gray"
     android:gravity="fill_horizontal"
     android:orientation="vertical"
-    tools:context=".bmiFragment">
+    tools:context=".BmiFragment">
 
     <TextView
         android:layout_width="match_parent"
