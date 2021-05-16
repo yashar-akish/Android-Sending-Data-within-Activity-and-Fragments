@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     EditText et_name, et_email, et_phone;
-    Button btn_signUp;
+    Button btn_signUp, btn_BMI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         et_email = findViewById(R.id.et_email);
         et_phone = findViewById(R.id.et_phone);
         btn_signUp = findViewById(R.id.btn_signUp);
+        btn_BMI = findViewById(R.id.btn_BMI);
 
         btn_signUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("name", userName);
                 intent.putExtra("email", userEmail);
                 intent.putExtra("phone", userPhone);
+                startActivity(intent);
+            }
+        });
+        btn_BMI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BMIActivity.class);
                 startActivity(intent);
             }
         });

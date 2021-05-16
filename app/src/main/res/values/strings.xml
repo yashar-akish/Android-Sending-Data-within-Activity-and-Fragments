@@ -4,4 +4,9 @@
     <string name="enter_your_email_address">Enter Your Email Address</string>
     <string name="enter_your_phone_number">Enter Your Phone Number</string>
     <string name="sign_up">Sign Up</string>
+    <string name="bmi_calculator">BMI CALCULATOR</string>
+    <string name="enter_your_weight_kg">Enter your Weight (kg)</string>
+    <string name="enter_your_height_cm">Enter Your Height (cm)</string>
+    <string name="calculate">calculate</string>
+    <string name="if_bmi_is_bigger_than_25_it_is_considered_overweight">if BMI is bigger than 25, it is considered overWeight</string>
 </resources>
