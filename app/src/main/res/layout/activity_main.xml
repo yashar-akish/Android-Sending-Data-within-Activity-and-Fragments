@@ -45,6 +45,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Calculate Your BMI" />
+        android:text="@string/calculate_your_bmi" />
+    <Button
+        android:id="@+id/btn_goToFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/test_fragment" />
 
 </LinearLayout>
